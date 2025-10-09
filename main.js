@@ -24,10 +24,6 @@ let lass = document.getElementById("ss")
 let lan = document.getElementById("lan");
 let btn = document.getElementById("btn");
 let h2= document.getElementById("h2");
-let fo= document.getElementById("fo");
-
-let do1 = document.getElementById("do");
-let re = document.querySelector("#repa")
 
 function lange () {
   if (lan.innerText=="عربي") {
@@ -36,10 +32,7 @@ function lange () {
     las.innerText="اسم المستخدم";
     lass.innerText="كلمة المرور";
     h2.innerText="تسجيل الدخول";
-    fo.innerText="نسيت كلمة السر ";
-    do1.innerText="لا امتلك حساب ";
-    re.style.color="red";
-    re.innerText="استعادة كلمة السر الآن ...";
+    
 
   } else if(lan.innerText=="English"){
     lan.innerText="عربي";
@@ -47,9 +40,7 @@ function lange () {
     las.innerText="Username";
     lass.innerText="Password";
     h2.innerText="Log in Form";
-    do1.innerText="don't account create account";
-    fo.innerText="forget password ? recovery";
-    re.innerText="Recovery Password Now ";
+    
   
   }
 };
