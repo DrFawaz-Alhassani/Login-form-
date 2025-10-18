@@ -54,8 +54,8 @@ let pass = document.getElementById("password"); // تأكد من وجود حقل
 
 function validateCredentials() {
   // التحقق من اسم المستخدم وكلمة المرور
-localStorage.setItem("username", text1);
-localStorage.setItem("password", pass);
+localStorage.setItem("username", text1.value);
+localStorage.setItem("password", pass.value);
 
 const user = localStorage.getItem("username");
 const pasr = localStorage.getItem("password");
