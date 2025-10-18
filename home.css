@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+body{
+  background: url('zx.jpeg') no-repeat;
+  background-size: cover;
+  background-position:centre;
+}
+section{
+  height: 100vh;
+  width: 750px;
+}
+#list{
+background: rgba(255, 255,255, 0.8);
+  
+  width: 0px;
+  height: 750px;
+  border: 1px solid #123;
+  border-radius: 7px;
+  
+}
+.free{
+  display:none ;
+}
+#logu{
+  position: absolute;
+  top: 760px;
+  width: 180px;
+  background: #380931;
+  color: #fff;
+  border: solid 0.7px #fff;
+  outline: none;
+  border-radius: 7px;
+  height: 30px;
+  overflow: hidden;
+  
+}
+#butn1{
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background: #380933;
+  color: #fff;
+  border: solid 0.7px #fff;
+  outline: none;
+  text-align: center;
+  border-radius: 7px;
+  
+  
+}
+#list ul li{
+  margin: 60px 0px;
+  border: solid 1px #123;
+  background: #565F37;
+  list-style-type: none;
+  outline: none;
+  border-radius:0px 7px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+a{
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+footer{
+  position:absolutely;
+  bottom:140px;
+  left: 0px;
+  width: 430px;
+  background: #123;
+  color: #fff;
+}
+.top{
+  display: flex;
+  width: 430px;
+  height: 40px;
+  background: #123;
+  justify-content: space-between;
+  align-items: center;
+}
+.top h3{
+  position: relative;
+  color: #fff;
+  right: 20px;
+  
+}

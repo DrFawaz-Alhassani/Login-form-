@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="administration.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/img/ico/ico.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/ico/ico.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+
+  <title>Seting app</title>
+</head>
+<body>
+  <div class="list">
+    <button id="cc" onclick="hedilist()">#</button>
+  <ul class="list-ul">
+  <li onclick="show('section1')" id="li1"><a href="#">
+    بيانات المستخدمين
+  </a></li>
+  
+  <li><a href="home.html">الرئيسية</a></li>
+  
+  <li onclick="show('section2')" id="li2"><a href="#">الاشتراكات</a></li>
+  <li onclick="show('section3')"  id="li3"><a href="#">اعدادات الدروس المضافة</a></li>
+</ul>
+</div>
+<div class="soo">
+<h3>Corsate.net </h3>
+<ul class="soshil">
+  <li><a href="#">WhatsApp</a></li>
+  <li onclick="showSection(section2)"><a href="#">Telegram</a></li>
+  <li onclick="showSection(section3)"><a href="#">Facebook</a></li>
+</ul>
+</div>
+  
+  <section  id="section1" class="section">
+    <i class="fa fa-user" aria-hidden="true"></i>
+    <h3>بيانات المستخدمين</h3>
+    <table>
+     <tr>
+        <th>#</th>
+        <th>اسم المستخدم</th>
+        <th>كلمة المرور</th>
+        <th>البريد</th>
+        <th>العمر</th>
+        <th>الكورس الاول</th>
+        <th>الكورس الثاني</th>
+        <th>الكورس الثالث</th>
+        <th><button type="submit">تعديل</button></th>
+        <th>
+  <button type="submit">حذف</button>
+        </th>
+    </tr>
+      
+      <tr>
+        <td>1</td>
+        <td>admin</td>
+        <td>1244</td>
+        <td>admin@info.hth</td>
+        <td>24</td>
+        <td>HTML</td>
+        <td>Css</td>
+        <td>JAVASCRIPT </td>
+        <td><button type="submit">تعديل</button></td>
+        <td><button type="submit">حذف </button></td>
+      </tr>
+    </table>
+  </section>
+  
+  <section id="section2" class="section">
+    <h3>اشتراكات المستخدمين </h3>
+    <table>
+          <tr>
+      <th>#</th>
+      <th>الكورس الاول</th>
+      <th>الكورس الثاني</th>
+      <th>الكورس الثالث</th>
+      <th>
+        <button type="submit">معلق</button>
+      </th>
+      <th>
+        <button type="submit">تسديد</button>
+      </th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Html</td>
+      <td>Css</td>
+      <td>JAVASCRIPT</td>
+      <td>
+        <button type="submit">تعليق</button>
+      </td>
+      <td>
+        <button type="submit">تسديد</button>
+      </td>
+  </tr>
+    </table>
+
+  </section>
+  
+  <section id="section3" class="section" >
+    <div id="box">
+  <i class="fa fa-user">list</i>
+      <h4>المشتركين</h4>
+      <span>100+</span>
+    </div>
+      <div id="box">
+      <img src="">
+      <h4>الارباح</h4>
+      <span>100+</span>
+    </div>
+      <div id="box">
+      <img src="">
+      <h4>الزوار</h4>
+      <span>100+</span>
+    </div>
+        <div id="box">
+      <img src="">
+      <h4>الكورسات المعلقة </h4>
+      <span>10+</span>
+    </div>
+        
+    <div id="box">
+      <img src="">
+      <h4>الكورسات المسددة</h4>
+      <span>50+</span>
+    </div>
+        <div id="box">
+      <img src="">
+      <h4>الرسائل</h4>
+     <span>20+</span>
+    </div>
+  </section>
+  
+  <script src="adminstration.js"></script>
+</body>
+</html>

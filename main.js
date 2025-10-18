@@ -18,6 +18,7 @@ if (wr.innerText=="Dark mode") {
 
 };
 
+
 let las= document.getElementById("s")
 let lass = document.getElementById("ss")
 let lan = document.getElementById("lan");
@@ -46,3 +47,28 @@ function lange () {
     
   }
 };
+
+
+let text1 = document.getElementById("emi");
+let pass = document.getElementById("password"); // تأكد من وجود حقل إدخال بهذا المعرف
+
+function validateCredentials() {
+  // التحقق من اسم المستخدم وكلمة المرور
+localStorage.setItem("username", text1);
+localStorage.setItem("password", pass);
+
+const user = localStorage.getItem("username");
+const pasr = localStorage.getItem("password");
+
+  if (user === "admin" && pasr === "1234") {
+    window.open('home.html');
+  
+    
+  } else if(user ==! "admin" && pasr ==! "1234") {
+    
+    text1.value = "خطأ في بياناتك عزيزي المستخدم"; 
+    pass.value = "خطأ في كلمة المرور";
+  }
+}
+
+
