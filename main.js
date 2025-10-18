@@ -60,15 +60,14 @@ localStorage.setItem("password", pass.value);
 const user = localStorage.getItem("username");
 const pasr = localStorage.getItem("password");
 
-  if (user === "admin" && pasr === "1234") {
+
+
+
+  if (user=== "admin" && pasr==="1234") {
     window.open('home.html');
-  
-    
-  } else if(user ==! "admin" && pasr ==! "1234") {
+  } else{
     
     text1.value = "خطأ في بياناتك عزيزي المستخدم"; 
     pass.value = "خطأ في كلمة المرور";
   }
 }
-
-
