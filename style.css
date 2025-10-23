@@ -44,7 +44,20 @@ h2{
   width: 310px;
   border-bottom: 2px solid #fff;
 }
-
+#inputboxx{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+  display: none;
+}
+#inputboxx1{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+  display: none;
+}
 #inputbox label{
   position: absolute;
   top: 50%;
@@ -53,6 +66,26 @@ h2{
   color: #fff;
   font-size: 1em;
   transition: .5s;
+}
+#inputboxx label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1em;
+  transition: .5s;
+  
+}
+#inputboxx1 label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1em;
+  transition: .5s;
+
 }
 input:focus~#s,
 input:valid~#s{
@@ -66,6 +99,22 @@ input:valid~#ss{
   color: #25B6C9;
   font-size: 18px;
 }
+input:focus~#email1,
+input:valid~#email1{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+
+input:focus~#repassword1,
+input:valid~#repassword1{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+
+
+
 
 #inputbox input{
   width: 320px;
@@ -78,6 +127,65 @@ input:valid~#ss{
   font-size: 1em;
   text-align: center;
   
+}
+#inputboxx input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+#inputboxx1 input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+#inputboxx12{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+#inputboxx12 input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+#inputboxx12 label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  transition: .5s;
+
+}
+input:focus~#code,
+input:valid~#code{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
 }
 .forget {
   margin: 15px 0 15px;
@@ -131,7 +239,7 @@ button {
   font-weight: 600;
   position: relative;
   right: 40px;
-  bottom: 520px;
+  bottom: 560px;
 }
 
 .register {
@@ -165,7 +273,7 @@ span{
   font-weight: 600;
   position: relative;
   left: 80px;
-  bottom: 520px;
+  bottom: 560px;
 }
 
 
@@ -218,3 +326,8 @@ span{
 }
 
 };
+
+
+.show{
+  display: block;
+}

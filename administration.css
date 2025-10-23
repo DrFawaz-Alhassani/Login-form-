@@ -88,7 +88,7 @@ border-radius:1px solid #fff;
 }
 #section1 table{
   position: absolute;
-  top: 40px;
+  top: 60px;
   width: 617px;
   align-items: center;
   background: #122;
@@ -191,4 +191,10 @@ section{
   background: #126;
   border: none;
   color:#fff;
+}
+span{
+  position: fixed;
+  left: 510px;
+  display: flex;
+  color: #fff;
 }
